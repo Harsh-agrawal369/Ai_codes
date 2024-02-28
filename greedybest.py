@@ -8,7 +8,6 @@ class Node:
     def add_edge(self, neighbor, cost=1):
         self.adjacencies.append((neighbor, cost))
 
-
 def greedy_best_first_search(start, goal):
     from queue import PriorityQueue
 
